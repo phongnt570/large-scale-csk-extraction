@@ -21,8 +21,6 @@ MAX_FILE_INDEX = 1023
 
 NUM_FILES = 64
 
-VERSION = 4
-
 
 def get_assertions_of_subjects(subjects: Dict[str, Set[Tuple[str, str]]], assertion_lists: List[List[Dict[str, Any]]],
                                c4_id: int,
