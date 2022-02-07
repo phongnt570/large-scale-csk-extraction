@@ -7,7 +7,7 @@ from pathlib import Path
 import spacy
 from spacy.tokens import DocBin
 
-from c4_reader import read_one_file
+from .c4_reader import read_one_file
 
 logging.basicConfig(level=logging.INFO,
                     format='[%(processName)s] [%(asctime)s] [%(name)s] [%(levelname)s] %(message)s',
