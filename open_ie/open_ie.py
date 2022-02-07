@@ -10,6 +10,7 @@ from typing import Union, Tuple, Set
 
 from ascent_openie import oie_from_spacy_sent
 
+from app_config import WORKING_DIR
 from .spacy_reader import read_one_spacy_file
 
 logging.basicConfig(level=logging.INFO,
@@ -17,8 +18,6 @@ logging.basicConfig(level=logging.INFO,
                     datefmt='%d-%m %H:%M:%S')
 
 logger = logging.getLogger(__name__)
-
-WORKING_DIR = "/path/to/your/working_directory".rstrip("/")
 
 MIN_FILE_INDEX = 0
 MAX_FILE_INDEX = 1023

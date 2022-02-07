@@ -5,6 +5,7 @@ import logging
 from pathlib import Path
 from typing import Any, Dict, List, Set, Union, Tuple
 
+from app_config import WORKING_DIR
 from .assertion_reader import load_one_assertion_file, AssertionId
 from .filtering_helper import is_likely_valid
 
@@ -13,8 +14,6 @@ logging.basicConfig(level=logging.INFO,
                     datefmt='%d-%m %H:%M:%S')
 
 logger = logging.getLogger(__name__)
-
-WORKING_DIR = "/path/to/your/working_directory".rstrip("/")
 
 MIN_FILE_INDEX = 0
 MAX_FILE_INDEX = 1023

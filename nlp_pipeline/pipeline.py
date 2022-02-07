@@ -7,6 +7,7 @@ from pathlib import Path
 import spacy
 from spacy.tokens import DocBin
 
+from app_config import WORKING_DIR
 from .c4_reader import read_one_file
 
 logging.basicConfig(level=logging.INFO,
@@ -14,8 +15,6 @@ logging.basicConfig(level=logging.INFO,
                     datefmt='%d-%m %H:%M:%S')
 
 logger = logging.getLogger(__name__)
-
-WORKING_DIR = "/path/to/your/working_directory".rstrip("/")
 
 MIN_FILE_INDEX = 0
 MAX_FILE_INDEX = 1023
