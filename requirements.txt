@@ -1,0 +1,9 @@
+spacy~=3.0.6
+libs/ascent_openie-0.0.7.tar.gz
+torch~=1.9.0
+transformers~=4.8.2
+scikit-learn~=0.24.2
+sentence-transformers~=2.0.0
+pymongo
+numpy
+pandas
