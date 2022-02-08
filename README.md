@@ -12,5 +12,6 @@ The pipeline is executed in the following order:
 `triple_clustering.clustering`
 6. `conceptnet_mapping.inference`
 7. `ranking`
-8. `final_filtering`
+8. `final_filtering.final_filtering`
 
+Global configurations can be found in `app_config.py`.
