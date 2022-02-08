@@ -11,5 +11,6 @@ The pipeline is executed in the following order:
 5. `triple_clustering.precompute_embeddings`
 `triple_clustering.clustering`
 6. `conceptnet_mapping.inference`
-7. (to be updated)
+7. `ranking`
+8. `final_filtering`
 
