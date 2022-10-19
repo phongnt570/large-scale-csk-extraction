@@ -14,7 +14,7 @@ The pipeline is executed in the following order:
 7. `ranking`
 8. `final_filtering.final_filtering`
 
-Global configurations can be found in `app_config.py`.
+Global configurations can be found in [`app_config.py`](app_config.py).
 
 Files needed for the pipeline to run are:
 
