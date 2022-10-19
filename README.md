@@ -20,12 +20,12 @@ Files needed for the pipeline to run are:
 
 - Precomputed similarity scores between C4 documents and Wikipedia articles:
   https://nextcloud.mpi-inf.mpg.de/index.php/s/nJSSW5QBQR3XoxH
-  (cf. [triple_filtering/filter.py](`triple_filtering/filter.py`))
+  (cf. [`triple_filtering/filter.py`](triple_filtering/filter.py))
 - Subjects: https://nextcloud.mpi-inf.mpg.de/index.php/s/TiSm3rrJ9kEqfm8
-  (cf. [triple_filtering/filter.py](`triple_filtering/filter.py`))
+  (cf. [`triple_filtering/filter.py`](triple_filtering/filter.py))
 - ConceptNet mapping train/dev
   files: https://nextcloud.mpi-inf.mpg.de/index.php/s/JeLRgsiNykcnRbs
-  (cf. [conceptnet_mapping/finetune.py](`conceptnet_mapping/finetune.py`))
+  (cf. [`conceptnet_mapping/finetune.py`](conceptnet_mapping/fine_tune.py))
 
 If you use Ascent++, please cite the following paper:
 
